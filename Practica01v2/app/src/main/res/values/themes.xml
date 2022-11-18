@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Practica01v2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="fuente">
+        <item name="fontFamily">sans-serif-condensed-medium</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="titulo" parent="fuente">
+        <item name="android:textSize">40dp</item>
+        <item name="android:textColor">#03A9F4</item>
+    </style>
+
+    <style name="cuenta" parent="fuente">
+        <item name="android:textSize">100dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="boton" parent="fuente">
+        <item name="android:textSize">45dp</item>
+        <item name="android:gravity">center</item>
+        <item name="backgroundTint">#BAB6B6</item>
+    </style>
+    
+    <style name="mas" parent="boton">
+        <item name="android:textColor">#4CAF50</item>
+    </style>
+
+    <style name="menos" parent="boton">
+        <item name="android:textColor">#E60E0E</item>
+    </style>
+
+    <style name="reset" parent="boton">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

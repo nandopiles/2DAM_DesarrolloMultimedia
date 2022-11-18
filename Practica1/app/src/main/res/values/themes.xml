@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Practica00" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <!--<item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>-->
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="fondo">
+        <item name="android:background">#BAA8D8</item> <!-- color de fondo -->
+    </style>
+
+    <style name="texto">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="titulo" parent="texto">
+        <item name="android:textColor">#E13F76</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">monospace</item>
+    </style>
+
+    <style name="etText" parent="texto">
+        <item name="android:textStyle">italic</item>
+        <item name="android:hint">@string/EtInfo</item>
+    </style>
+    
+    <style name="btnCont" parent="texto">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">#6273D1</item> <!-- cambiar el fondo de los botones -->
+    </style>
+
+    <style name="btnExit" parent="btnCont">
+        <item name="android:backgroundTint">#FF9800</item>
+    </style>
+    
+    <style name="tvVacio" parent="texto">
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

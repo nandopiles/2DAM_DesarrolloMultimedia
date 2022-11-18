@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practica00</string>
+    <string name="Titulo">Esta es la primera APP</string>
+    <string name="EtInfo">Dinos cuál es tu nombre...</string>
+    <string name="btnContinuar">Continuamos</string>
+    <string name="btnSalir">Salir</string>
+    <string name="MensajeOculto">Aquí ahora mismo no se tiene que ver nada, luego mostraremos el mensaje de bienvenida</string>
+</resources>

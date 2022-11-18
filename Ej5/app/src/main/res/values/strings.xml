@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ej5</string>
+    <string name="primerTexto">Texto construído desde el XML\n Tamaño 20dp, Bold y color Red</string>
+    <string name="segundoTexto">Texto construído desde Java\n Tamaño 20dp, Itálic y color Blue</string>
+    <string name="tercerTexto">Texto construído desde XML\n</string>
+    <string name="cuartoTexto">TEXTO ESCRITO FUENTE STOCKY\n</string>
+</resources>
