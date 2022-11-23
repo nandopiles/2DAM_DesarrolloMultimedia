@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="generalText">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="text1" parent="generalText">
+        <item name="android:textColor">#D62121</item>
+        <item name="android:textSize">23sp</item>
+    </style>
+
+    <style name="text2" parent="generalText">
+        <item name="android:textColor">#2238B3</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+</resources>
