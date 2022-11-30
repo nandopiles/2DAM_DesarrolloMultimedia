@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Ej5.4</string>
+    <string name="btnText">Button</string>
+    <string name="bot_n_sin_pulsar">BOTÓN SIN PULSAR</string>
+    <string name="btnPulsado">BOTÓN PULSADO</string>
 </resources>
