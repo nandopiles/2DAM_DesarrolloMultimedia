@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RadioButtons</string>
+    <string name="lunes">LUNES</string>
+    <string name="martes">MARTES</string>
+    <string name="miercoles">MIERCOLES</string>
+    <string name="jueves">JUEVES</string>
+    <string name="viernes">VIERNES</string>
+    <string name="sabado">SABADO</string>
+    <string name="domingo">DOMINGO</string>
+</resources>

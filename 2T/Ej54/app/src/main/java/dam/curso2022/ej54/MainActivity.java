@@ -10,10 +10,11 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btn1;
+    private Button btn1, btn2;
     private TextView tv1;
     private boolean press = false;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,20 +22,20 @@ public class MainActivity extends AppCompatActivity {
 
         tv1 = (TextView) findViewById(R.id.tv1);
         btn1 = (Button) findViewById(R.id.btn);
+        btn2 = (Button) findViewById(R.id.btn2);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceAsColor")
             @Override
             public void onClick(View view) {
-                if (press) {
-                    tv1.setText(R.string.btnPulsado);
-                    tv1.setTextColor(R.color.purple_700);
-                    press = false;
-                } else {
-                    tv1.setText(R.string.bot_n_sin_pulsar);
-                    tv1.setTextColor(R.color.teal_200);
-                    press = true;
-                }
+                tv1.setText(R.string.btnPulsado);
+            }
+        });
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                tv1.setText(R.string.bot_n_sin_pulsar);
             }
         });
     }

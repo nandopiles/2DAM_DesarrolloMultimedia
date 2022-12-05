@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btn1, btn2, btn3;
     private boolean rojo = true;
 
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint({"MissingInflatedId", "ClickableViewAccessibility"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
