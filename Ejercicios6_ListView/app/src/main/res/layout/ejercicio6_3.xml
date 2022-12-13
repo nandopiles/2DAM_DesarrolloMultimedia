@@ -9,11 +9,12 @@
         style="@style/tect"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="AAA" />
+        android:text="@string/aaa" />
 
-    <ListView
+    <GridView
         android:id="@+id/miLista2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent"
+        android:numColumns="2"/>
 
 </LinearLayout>
