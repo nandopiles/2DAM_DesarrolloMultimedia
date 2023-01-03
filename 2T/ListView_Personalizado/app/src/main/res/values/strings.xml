@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ListView_Personalizado</string>
+    <string name="titulo_aver_a">Titulo avería</string>
+    <string name="modelo_coche">modelo coche</string>
+    <string name="_0_presupuestos">0 presupuestos</string>
+    <string name="issue">issue</string>
+    <string name="photo">photo</string>
+</resources>
