@@ -32,7 +32,7 @@ public class MiAdaptadorAverias extends ArrayAdapter<Averia> {
         @SuppressLint("ViewHolder")
         View v = LayoutInflater.from(ctx).inflate(layoutTempleate, parent, false);
 
-        // Obvtener la info el elemento de la lista que estoy iterando en este momento
+        // Obtener la info el elemento de la lista que estoy iterando en este momento
         Averia elementoActual = averiaList.get(position);
 
         // Rescatar los elementos de la IU de la template
