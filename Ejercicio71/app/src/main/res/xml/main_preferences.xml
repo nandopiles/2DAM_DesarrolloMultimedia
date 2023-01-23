@@ -5,7 +5,6 @@
     <PreferenceCategory android:title="@string/cat1">
 
         <CheckBoxPreference
-            android:defaultValue="false"
             android:key="check_box_preference_1"
             android:summary="@string/SO_summary"
             android:title="@string/SO" />
@@ -14,14 +13,12 @@
 
     </PreferenceCategory>
     <ListPreference
-        android:defaultValue="1"
         android:entries="@array/so_values"
         android:entryValues="@array/so_values"
         android:key="list_preference_1"
         android:summary="@string/SO2_summary"
         android:title="@string/SO_title" />
     <EditTextPreference
-        android:defaultValue="Default value"
         android:key="edit_text_preference_1"
         android:selectAllOnFocus="true"
         android:singleLine="true"
