@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Ejercicio71</string>
+    
+    <string name="titulo">ACTIVIDAD DE PREFERENCIAS</string>
+    <string name="definir">DEFINIR PREFERENCIAS</string>
+    <string name="recuperar">RECUPERAR PREFERENCIAS</string>
+
+    <string name="cat1">Categoría 1</string>
+    <string name="cat2">Categoría 2</string>
+
+    <string name="SO">ÚNICO SISTEMA OPERATIVO</string>
+    <string name="SO_summary">Marca si tienes preferencia por un SO</string>
+
+    <string name="SO_title">SISTEMA OPERATIVO</string>
+    <string name="SO2_summary">Pulsa para elegir Sistema Operativo</string>
+    <string-array name="so_values">
+        <item>WINDOWS</item>
+        <item>LINUX</item>
+        <item>MACOS</item>
+    </string-array>
+
+    <string name="v_title">VERSIÓN DEL SISTEMA</string>
+    <string name="v_summary">Pulsa para introducir la versión del sistema</string>
+</resources>
