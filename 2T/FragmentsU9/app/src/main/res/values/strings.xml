@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FragmentsU9</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" />
+    <string name="button">Resta</string>
+    <string name="textview">Resta</string>
+    <string name="title">App resta</string>
+</resources>
