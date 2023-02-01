@@ -16,7 +16,7 @@ import android.widget.TextView;
 
 public class Fragmento1 extends Fragment {
     private EditText et1, et2;
-    private Button btnSumar;
+    private Button btnRestar;
     private TextView tvSuma;
 
     public Fragmento1() {
@@ -36,10 +36,10 @@ public class Fragmento1 extends Fragment {
 
         et1 = view.findViewById(R.id.et1);
         et2 = view.findViewById(R.id.et2);
-        btnSumar = view.findViewById(R.id.btnSumar);
+        btnRestar = view.findViewById(R.id.btnSumar);
         tvSuma = view.findViewById(R.id.tvSuma);
 
-        btnSumar.setOnClickListener(new View.OnClickListener() {
+        btnRestar.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
