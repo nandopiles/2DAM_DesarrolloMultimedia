@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ejercicios6_ListView</string>
+    <string name="textview">AAAA</string>
+    <string name="aaa">AAA</string>
+    <string name="resultMenu">Elige una opción</string>
+    <string name="lunes">Lunes</string>
+    <string name="martes">Martes</string>
+    <string name="miercoles">Miercoles</string>
+    <string name="jueves">Jueves</string>
+    <string name="d_as_de_la_semana">Días de la Semana</string>
+    <string name="meses_del_a_o">Meses del Año</string>
+    <string name="enero">Enero</string>
+    <string name="febrero">Febrero</string>
+    <string name="marzo">Marzo</string>
+    <string name="abril">Abril</string>
+</resources>
